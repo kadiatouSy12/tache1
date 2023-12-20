@@ -1,0 +1,18 @@
+.div{
+    float: left;
+    height: 300px;
+    width: 300px; ;
+    background: -webkit-radial-gradient(20px 40px,closest-side ,rgb(185, 122, 122) 10%,rgb(105, 105, 223) 60%,rgb(133, 96, 28) 50%);
+    background: -o-radial-gradient(20px 40px,closest-side,rgb(185, 122, 122) 10%,rgb(105, 105, 223) 60%,rgb(133, 96, 28) 50%);
+    background: -moz-radial-gradient(20px 40px,closest-side,rgb(185, 122, 122) 10%,rgb(105, 105, 223) 60%,rgb(133, 96, 28) 50%);
+    background:radial-gradient(closest-side at 20px 40px,rgb(185, 122, 122) 10%,rgb(105, 105, 223) 60%,rgb(133, 96, 28) 50%) ;
+}   
+.div1{
+    float: right;
+    height: 400px;
+    width: 400px;
+    background: -moz-radial-gradient(20px 40px, farthest-side,rgb(5, 5, 107) 10%,rgb(134, 91, 134) 60%,rgb(253, 246, 246) 20% );
+    background: -o-radial-gradient(20px 40px,farthest-side,rgb(5, 5, 107)10%,rgb(134, 91, 134) 60%,rgb(253, 246, 246) 20%) ;
+    background: -webkit-radial-gradient(20px 40px,farthest-side,rgb(5, 5, 107) 10%,rgb(134, 91, 134) 60%,rgb(253, 246, 246) 20%);
+    background: radial-gradient( farthest-side at 20px 40px,rgb(5, 5, 107) 10%,rgb(134, 91, 134) 60%,rgb(253, 246, 246) 20%);
+}
