@@ -1,0 +1,62 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    position: relative;
+    -webkit-animation-name: modification;
+    -webkit-animation-duration:  2s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-delay: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+
+    -moz-animation-name: modification;
+    -moz-animation-duration: 2s;
+    -moz-animation-timing-function:ease;
+    -moz-animation-delay: 4s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-direction:alternate
+
+    -o-animation-name: modification;
+    -o-animation-duration: 2s;
+    -o-animation-timing-function:ease; 
+    -o-animation-delay 4s;
+    -o-animation-iteration-count:infinite;
+    -o-animation-direction:alternate;
+
+    animation-name: modification;
+    animation-duration:2s;
+    animation-timing-function:ease;
+    animation-delay: 4s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate
+}
+@-webkit-keyframes modification{
+    0%{background-color: red;top: 0%;left: 0%;}
+    50%{background-color: green;top: 0%;left: 200px;}
+    80%{background-color: blueviolet;top: 200px;left: 300px;}
+    100%{background-color: chocolate;top: 0px;left: 0px;}
+}
+
+@-moz-keyframes modification{
+    0%{background-color: red;top: 0%;left: 0%;}
+    50%{background-color: green;top: 0%;left: 200px;}
+    80%{background-color: blueviolet;top: 200px;left: 300px;}
+    100%{background-color: chocolate;top: 0px;left: 0px;}
+}
+
+@-o-keyframes modification{
+    0%{background-color: red;top: 0%;left: 0%;}
+    50%{background-color: green;top: 0%;left: 200px;}
+    80%{background-color: blueviolet;top: 200px;left: 300px;}
+    100%{background-color: chocolate;top: 0px;left: 0px;}
+}
+@keyframes modification{
+    0%{background-color: red;top: 0%;left: 0%;}
+    50%{background-color: green;top: 0%;left: 200px;}
+    80%{background-color: blueviolet;top: 200px;left: 300px;}
+    100%{background-color: chocolate;top: 0px;left: 0px;}
+}
