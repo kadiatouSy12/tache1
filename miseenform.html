@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mises en forme d'un formulaire</title>
+    <link rel="stylesheet" href="miseenform.css">
+</head>
+<body>
+    <form method="post" action="form.php">
+        <fieldset id="sect1">
+            <legend>informations personnel </legend><br><br>
+        <label for="prenom">votre prenom</label>
+        <input type="text" id="prenom" name="prez"><br><br>
+
+        <label for="nom">votre nom</label>
+        <input type="text" id="nom" name="prez"><br><br><br>
+    </fieldset>
+        <fieldset id="sect2">
+            <legend>vos loisirs?</legend><br><br>
+            <input type="checkbox" id="etudes" name="etude" value="informatique">
+            <label for="etudes">informatique</label>
+
+            <input type="checkbox" id="divertissement" name="voyage" value="voyage">
+            <label for="divertissement">voyage</label>
+
+            <input type="checkbox" id="entrainement" name="sport" value="sport">
+            <label for="entrainement">sport</label>
+    </fieldset>
+<input type=" submit" value="envoyer">
+    </form>
+</body>
+</html>

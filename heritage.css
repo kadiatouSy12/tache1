@@ -1,0 +1,17 @@
+body{
+    color: blue;
+}
+p{
+    color: green;
+}
+#para{
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-underline-position: below;
+}
+.p1{
+    color: brown;
+}
+h1{
+    color: red;
+}

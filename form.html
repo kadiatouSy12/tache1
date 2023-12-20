@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creation de formulaire </title>
+</head>
+<body>
+    <h1>creation de formulaire</h1>
+    <form method="post" action="doc.php">
+        <label for="plat">donnez le nom  de votre plat souhaite</label>
+        <input type="text" id="plat" name="le plat" autocomplete="additional-name"><br><br>
+
+        <label for="code">Si vous devriez donner un code a ce plat,quel serait votre code</label>
+        <input type="password" id="code" name="code secret" placeholder="15022002ksy"><br><br>
+
+        <label for="decouverte">Quand avez vous decouvert ce plat</label>
+        <input type="date" id="decouverte" name="le jour"><br><br>
+
+        <label for="nombre">Donnez nous le nobre de fois que vous avez mange ce plat</label>
+        <input type="number" id="nombre" name="nombre" min="1" max="20"><br><br>
+
+        <label for="adress">Veuillez entrer votre adress mail</label>
+        <input type="email" id="adress" name="mail" required><br><br>
+
+        <label for="site">Veuillez recommander un site pour commander de la nourriture</label>
+        <input type="url" id="site" name="site internet" autofocus><br><br>
+    
+        <label for="presentation">Racontez nous l'histoir de ce plat</label>
+        <textarea name="histoire" id="presentation"></textarea><br><br>
+
+        <input type="submit" value="soumettre">
+    </form>
+</body>
+</html>

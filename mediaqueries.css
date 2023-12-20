@@ -1,0 +1,34 @@
+body{
+    margin: 0%;
+    padding: 0%;
+} 
+#d1,#d2,#d3{
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+    border: 2px solid black;
+    margin: 1%;
+}
+#d1{
+    background-color: rgb(34, 34, 86);
+}
+#d2{
+    background-color: rgb(80, 34, 122);
+}
+#d3{
+    background-color: brown;
+}
+#mag{
+    width: 700px;
+    height: 300px;
+    background-color: #ccc;
+}
+@media screen and(min-width:680px){
+    #d1,#d2,#d3{
+        width: 100%;
+        display: none;
+    }
+    #mag{
+        display: none;
+    }
+}

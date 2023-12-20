@@ -1,0 +1,13 @@
+body{
+    background-image: url(image/bebeNoire.jpg),url(image/images.jpg);
+    background-position: top left,top right;
+    background-size: 30%,40%;
+    background-repeat: no-repeat,no-repeat;
+    background-attachment: fixed,scroll;
+    background-color: beige;
+}
+h1{
+    color: cornflowerblue;
+    font-weight: bolder;
+    text-shadow: 2px 4px 5px #ece4e4;
+}
