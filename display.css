@@ -1,0 +1,14 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    border: 10px solid red;
+}
+.p1{
+    display: inline-block;
+    width: 45%;
+    height: 20%;
+}
+.p2{
+    display: none;
+}
