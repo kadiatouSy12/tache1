@@ -1,0 +1,33 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    -webkit-animation-name: modification;
+    -webkit-animation-duration:2s;
+    -moz-animation-name: modification;
+    -moz-animation-duration: 2s;
+    -o-animation-name: modification;
+    -o-animation-duration:2s;
+    animation-name: modification;
+    animation-duration:2s;  
+}
+@-webkit-keyframes modification{
+    from{background-color:blue;}
+    to{background-color: orange;}
+}
+@-moz-keyframes modification{
+    from{background-color: blue;}
+    to{background-color: orange;}
+}
+@-o-keyframes modification{
+    from{background-color:blue;}
+    to{background-color: orange;}
+}
+@keyframes modification{
+    from{background-color:blue;}
+    to{background-color: orange;}
+}
+
