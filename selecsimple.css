@@ -1,0 +1,22 @@
+h1{
+    font: 100;
+    color: bisque;
+    font-style: oblique;
+    text-decoration: line-through;
+}
+/* p{
+    color: fuchsia;
+    font-weight: 300;
+}
+body{
+     background-color: beige;
+ }*/
+ #p1{
+    color: blue;
+    font-weight: 300;
+    text-decoration: none;
+ }
+ .p1{
+    color:black;
+    font-size: larger;
+ }

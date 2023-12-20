@@ -1,0 +1,27 @@
+body{
+    background-color: #f5aa5f;
+}
+.para{
+    background-color:aliceblue;
+    border:55px solid rgb(147, 75, 75);
+    width: 20px;
+    height: 10px;
+    padding: 45px;
+    margin: 0px 55px;
+    z-index: 1000;
+    float: right;
+    overflow:auto;
+}
+#p1{
+    float: right;
+    left: 50px;
+    
+}
+h1{
+    color: rgb(46, 80, 46);
+    z-index: 1000; 
+    float: left;
+}
+.p2{
+    clear: right;;
+}

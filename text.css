@@ -1,0 +1,15 @@
+h1{
+    color: rgb(125, 55, 76);
+    text-align: center;
+    text-transform: lowercase;
+    text-shadow: 1px -4px 8px #00eea8;
+}
+.k{
+    text-decoration: overline;
+    font-style: italic;
+    text-indent: -34px;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}

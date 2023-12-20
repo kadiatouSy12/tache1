@@ -1,0 +1,30 @@
+body{
+     background-color:#fff;
+     color: rgb( 45, 156, 200);
+
+}
+.para
+{
+    line-height: 20px;
+    text-transform: lowercase;
+}
+.p{
+    line-height: 40px;
+    font-weight: bold;
+}
+#autre{
+    letter-spacing: -15px;
+    text-align: center;
+
+}
+.p1{
+    letter-spacing: 30px;
+    font-style: oblique;
+}
+.bakeli{
+    word-spacing: 40px;
+    text-shadow: 3px,-2px,1px,#abbccc;
+}
+.p2{
+    word-spacing: -8px;
+}

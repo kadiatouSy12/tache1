@@ -1,0 +1,13 @@
+ body{
+    width: 100%;
+ }
+ div,p{
+    width: 50%;
+    border: 2px solid black;
+ }
+ div{
+    background-color: blue;
+ }
+ p{
+    background-color: green;
+ }

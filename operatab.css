@@ -1,0 +1,10 @@
+th,td{
+    border: 2px solid blueviolet;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+.tab{
+    border-collapse: collapse;
+}

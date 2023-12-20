@@ -1,0 +1,22 @@
+p::first-letter{
+    color: goldenrod;
+    font-size: 50px;
+}
+.kadia::first-line{
+    color: cadetblue;
+}
+p::-moz-selection{
+    background-color: orangered;
+}
+p::selection{
+    background-color: orangered;
+}
+div{
+    border: 1px solid black;
+}
+div::before{
+    content:"ajouter avant mon div";
+}
+div::after{
+    content: "ajouter apres mon div" ;
+}

@@ -1,0 +1,18 @@
+body{
+    font-family: verdana,sans-serif;
+}
+#pl,#dl{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: block;
+}
+#pl{
+    background-image:url("image/images\ \(1\).png");
+    background-position: 0px -5px;
+} 
+#dl{
+    background-image:url("image/images\ \(1\).png");
+    background-position: -110px -10px;
+    left: 400px;
+}

@@ -1,0 +1,34 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div + p{
+    color:burlywood;
+}
+div > h2{
+    color: blue;
+}
+p[class]{
+    font-style: oblique;
+    color: aqua;
+}
+h1:hover{
+    color: chocolate;
+}
+a:link{
+    color: rgb(172, 63, 63);
+}
+a:visited{
+    color: black;
+}
+p:first-child{
+    font-style: italic;
+    font-weight: bolder;
+}
+p:last-child{
+    border: 3px solid red;
+}
+h2:nth-child(even){
+    color: black;
+}
+ 
+

@@ -1,0 +1,35 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 5px solid pink;
+    padding: 20px;
+}
+th{
+    background-color: blue;
+}
+#paire{
+    background-color: cadetblue;
+    font-weight: bolder;
+}
+tr:nth-child(even){
+    background-color: rgb(101, 101, 63);
+}
+thead,tfoot{
+    background-color: azure;
+    border-style: groove;
+
+}
+.tab{
+    border-collapse: collapse;
+}
+.paire{
+    background-color: beige;
+    font-style: italic;
+}
+.impaire{
+    background-color: brown;
+}
